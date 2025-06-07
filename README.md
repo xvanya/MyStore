@@ -38,6 +38,14 @@ py manage.py runserver 4893
 ## Робота з БД. Підключення і налаштування
 ```
 pip install psycopg2-binary
+pip install Pillow
 
+py manage.py startapp users
+
+py manage.py makemigrations users
+
+py manage.py sqlmigrate users 0001
+
+py manage.py migrate
 
 ```
