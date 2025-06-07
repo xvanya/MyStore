@@ -49,3 +49,23 @@ py manage.py sqlmigrate users 0001
 py manage.py migrate
 
 ```
+
+## Clone poject GitHub
+```
+
+git clone https://github.com/novakvova/Django_SPD311.git
+cd Django_SPD311
+
+py -m venv .venv
+.venv\Scripts\activate.bat
+
+python.exe -m pip install --upgrade pip
+py -m pip install Django
+pip install psycopg2-binary
+pip install Pillow
+
+cd cats
+
+py manage.py runserver 4893
+
+```
