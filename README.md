@@ -69,3 +69,11 @@ cd cats
 py manage.py runserver 4893
 
 ```
+
+## Робота з View
+```
+.venv\Scripts\activate.bat
+cd cats
+py manage.py runserver 4893
+```
+
