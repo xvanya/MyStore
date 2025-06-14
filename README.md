@@ -75,5 +75,7 @@ py manage.py runserver 4893
 .venv\Scripts\activate.bat
 cd cats
 py manage.py runserver 4893
+
+
 ```
 
