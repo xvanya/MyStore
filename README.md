@@ -27,3 +27,17 @@ python -m pip install Pillow
  pip install djangorestframework
 
  py manage.py runserver 4097
+
+ pip install django-cors-headers
+
+
+ ## Create React App
+```
+# npm 7+, extra double-dash is needed:
+
+npm create vite@latest my-react-app -- --template react-ts
+
+  cd my-react-app
+  npm install
+  npm run dev
+```
